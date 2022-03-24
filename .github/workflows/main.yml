@@ -34,7 +34,7 @@ jobs:
           dst_token: ${{ secrets.GITEE_TOKEN }}
 #           static_list: '${{ steps.info.outputs.result }}' # 只同步当前仓库
           mappings: "abobot.github.io=>blog"
-          black_list: "V2rayN,hexo-theme-pure"
+          black_list: "v2rayN,hexo-theme-pure,genshin-impact-helper,BiliExp"
           account_type: user
           force_update: true
           timeout: '1h'
