@@ -37,3 +37,4 @@ jobs:
           black_list: "V2rayN,hexo-theme-pure"
           account_type: user
           force_update: true
+          timeout: '1h'
