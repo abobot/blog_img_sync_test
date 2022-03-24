@@ -33,5 +33,7 @@ jobs:
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
 #           static_list: '${{ steps.info.outputs.result }}' # 只同步当前仓库
+          mappings: "abobot.github.io=>blog"
+          black_list: "V2rayN"
           account_type: user
           force_update: true
